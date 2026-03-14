@@ -33,5 +33,5 @@ int main() {
 		cout << "Grade " << (i + 1) << ": " << grades[i] << endl;
 	}
 	cout << "\n       Your Average is: " << average << endl;
-	return 0; // making sure it finishes 
+	return 0; //end
 }
