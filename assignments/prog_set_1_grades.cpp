@@ -2,7 +2,6 @@
 using namespace std;
 
 int main() {
-
 	int size = 10;
 	int* grades = new int[size];
 
@@ -33,7 +32,6 @@ int main() {
 	for (int i = 0; i < size; i++) {
 		cout << "Grade " << (i + 1) << ": " << grades[i] << endl;
 	}
-	cout << "\n                   Your Average is: " << average << endl;
-
-	return 0;
+	cout << "\n       Your Average is: " << average << endl;
+	return 0; // making sure it finishes 
 }

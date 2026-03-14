@@ -14,12 +14,10 @@ int main() {
 
 	// print them next to each other idk if setw is right here
 	cout << left << setw(25) << "List using array" << "List using vector" << endl;
-
 	for (int i = 0; i <= 10; i++) {   //goes thru both lists
 		string arrItem = to_string(i + 1) + ". " + productArray[i];
 		string vecItem = to_string(i + 1) + ". " + productVector[i];
 		cout << left << setw(25) << arrItem << vecItem << endl;
 	}
-
 	return 0;
 }
